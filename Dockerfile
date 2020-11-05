@@ -1,6 +1,6 @@
 FROM  java:8
 LABEL author=simm
-      email="simm@mingyuanyun.com"
+LABEL email="simm@mingyuanyun.com"
 VOLUME /tmp
 ARG JAR_FILE
 COPY ${JAR_FILE} app.jar
