@@ -1,4 +1,4 @@
-FROM  java:8
+FROM  fiadliel/java8-jre
 LABEL author=simm
 LABEL email="simm@mingyuanyun.com"
 VOLUME /tmp
